@@ -1,5 +1,7 @@
 *.png
 *.jpg
 
+
 /.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 /Personal/

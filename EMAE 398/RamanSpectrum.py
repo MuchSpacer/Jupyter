@@ -2,7 +2,9 @@ import numpy as np
 import scipy.interpolate as itp
 
 class RamanSpectrum:
+    '''A wrapper for a Raman spectrum which provides functionality for removing fluorescent background and plotting.
 
+Fluorescent background is removed with a fitting spline of degree given by "deg" and with a number of equally sized pieces given by "divisions".'''
 
     def __init__(self, path, L_cutoff = None, R_cutoff = None, deg = 2, divisions = 5):
         
